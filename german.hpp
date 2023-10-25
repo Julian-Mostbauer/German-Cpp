@@ -54,4 +54,7 @@
 #define größergleich >=
 #define gleichwie ==
 
+// basic functions
 #define drucken printf
+#define größevon sizeof
+

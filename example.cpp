@@ -26,6 +26,8 @@ Ganzzahl Haupt()
     {
         (istEinePrimZahl(i) gleichwie Wahr) ? std::raus << i << " ist eine Primzahl" << std::leerz : std::raus << i << " ist keine Primzahl" << std::leerz;
     }
+    
+    drucken("%d", größevon(Ganzzahl));
 
     ausgeben 0;
 }
