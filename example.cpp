@@ -18,13 +18,13 @@ WahrFalschOption istEinePrimZahl(Ganzzahl zahl)
 
 Ganzzahl Haupt()
 {
-    std::raus << "Gib ein Limit ein: ";
+    std::craus << "Gib ein Limit ein: ";
     Ganzzahl limit;
-    std::rein >> limit;
+    std::crein >> limit;
 
     für(Ganzzahl i = 0; i kleiner limit; i++)
     {
-        (istEinePrimZahl(i) gleichwie Wahr) ? std::raus << i << " ist eine Primzahl" << std::leerz : std::raus << i << " ist keine Primzahl" << std::leerz;
+        (istEinePrimZahl(i) gleichwie Wahr) ? std::craus << i << " ist eine Primzahl" << std::leerz : std::craus << i << " ist keine Primzahl" << std::leerz;
     }
     
     drucken("%d", größevon(Ganzzahl));

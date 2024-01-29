@@ -42,8 +42,8 @@
 #define größevon sizeof
 
 // iostream stuff
-#define raus cout
-#define rein cin
+#define craus cout
+#define crein cin
 #define leerz endl
 
 // logic operations
